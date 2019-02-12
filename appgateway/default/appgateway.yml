@@ -1,3 +1,9 @@
 zuul:
   prefix: /api
   sensitiveHeaders: Cookie,Set-Cookie
+
+  routes:
+    appuser:
+      path: /user/**
+      serviceId: appuser
+      stripPrefix: true
