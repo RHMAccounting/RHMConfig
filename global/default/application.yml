@@ -1,3 +1,13 @@
+security:
+  oauth2:
+    client:
+      client-id: 0oagwsc65d69QZbSV0h7
+      client-secret: iOllUkxXZF_lRO6f-jymi9nicEq7O8m8Corx0IKO
+      access-token-uri: https://dev-483475.oktapreview.com/oauth2/default/v1/token
+      user-authorization-uri: https://dev-483475.oktapreview.com/oauth2/default/v1/authorize
+      scope: openid profile email
+      user-info-uri: https://dev-483475.oktapreview.com/oauth2/default/v1/userinfo
+
 spring:
   kafka:
     bootstrap-servers: 192.168.99.100:9092
