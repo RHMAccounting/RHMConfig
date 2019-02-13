@@ -7,3 +7,9 @@ zuul:
       path: /user/**
       serviceId: appuser
       stripPrefix: true
+
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  shareSecurityContext: true
