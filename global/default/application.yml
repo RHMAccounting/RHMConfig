@@ -37,3 +37,15 @@ spring:
             user-info-authentication-method: header
             jwk-set-uri: http://192.168.99.100:8080/auth/realms/RHM/protocol/openid-connect/certs
             user-name-attribute: preferred_username
+
+logging:
+  level:
+    net:
+      rhm:
+        appuser: debug
+    org:
+      springframework:
+        security: DEBUG
+        web:
+          filter:
+            CommonsRequestLoggingFilter: DEBUG
