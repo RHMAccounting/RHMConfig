@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bef715f5-1379-4746-9be5-98e78ff16dd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appgateway/default/appgateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appgateway/default/appgateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appuser/default/appuser.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appuser/default/appuser.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appgateway/default/appgateway.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -40,15 +40,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/global/default/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appuser/default/appuser.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -60,8 +64,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/global/default/application.yml" />
         <option value="$PROJECT_DIR$/appgateway/default/appgateway.yml" />
+        <option value="$PROJECT_DIR$/global/default/application.yml" />
+        <option value="$PROJECT_DIR$/appuser/default/appuser.yml" />
       </list>
     </option>
   </component>
@@ -77,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,7 +128,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,7 +161,8 @@
       <option name="presentableId" value="Default" />
       <updated>1550002456951</updated>
       <workItem from="1550002459176" duration="2121000" />
-      <workItem from="1550088459055" duration="833000" />
+      <workItem from="1550088459055" duration="2315000" />
+      <workItem from="1550173429067" duration="1259000" />
     </task>
     <task id="LOCAL-00001" summary="readme modif">
       <created>1550002769944</created>
@@ -179,17 +185,31 @@
       <option name="project" value="LOCAL" />
       <updated>1550005198104</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding feign config within appgateway config file">
+      <created>1550090056632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550090056632</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updating log config for all services">
+      <created>1550090918026</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550090918026</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2954000" />
+    <option name="totallyTimeSpent" value="5695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="655" y="41" width="1262" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25374377" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -225,7 +245,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readme modif" />
     <MESSAGE value="updating okta details" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating okta details" />
+    <MESSAGE value="adding feign config within appgateway config file" />
+    <MESSAGE value="updating log config for all services" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating log config for all services" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -238,13 +260,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appuser/default/appuser.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/global/default/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -252,6 +271,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appuser/default/appuser.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>
