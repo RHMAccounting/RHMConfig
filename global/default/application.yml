@@ -49,3 +49,7 @@ logging:
         web:
           filter:
             CommonsRequestLoggingFilter: DEBUG
+    org:
+      hibernate:
+        SQL: DEBUG
+        type: TRACE
