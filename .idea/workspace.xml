@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appgateway/default/appgateway.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -174,7 +174,7 @@
       <workItem from="1550860133780" duration="598000" />
       <workItem from="1550997986217" duration="254000" />
       <workItem from="1550998266092" duration="1594000" />
-      <workItem from="1551031317819" duration="106000" />
+      <workItem from="1551031317819" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="readme modif">
       <created>1550002769944</created>
@@ -232,11 +232,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550433638301</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Testing Hystrix timeout for the gateway.">
+      <created>1551031454008</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551031454008</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Testing Hystrix timeout for the gateway.">
+      <created>1551032159046</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551032159046</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16803000" />
+    <option name="totallyTimeSpent" value="17779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="657" y="13" width="1262" height="1006" extended-state="0" />
@@ -283,7 +297,8 @@
     <MESSAGE value="adding postgresql config to user application" />
     <MESSAGE value="updating logging level for hibernate - global conf." />
     <MESSAGE value="fixing duplicate" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing duplicate" />
+    <MESSAGE value="Testing Hystrix timeout for the gateway." />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing Hystrix timeout for the gateway." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -312,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appgateway/default/appgateway.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="272">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
