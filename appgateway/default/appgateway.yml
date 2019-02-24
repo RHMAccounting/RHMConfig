@@ -15,6 +15,6 @@ hystrix:
   shareSecurityContext: true
   command:
     default:
-      execition:
+      execution:
         timeout:
           enabled: false
