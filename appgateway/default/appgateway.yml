@@ -13,3 +13,8 @@ feign:
     enabled: true
 hystrix:
   shareSecurityContext: true
+  command:
+    default:
+      execition:
+        timeout:
+          enabled: false
