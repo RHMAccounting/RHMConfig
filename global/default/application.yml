@@ -45,7 +45,7 @@ logging:
         appuser: debug
         appgateway: debug
     org:
-      springframework:
+      springframework: DEBUG
         security: DEBUG
         web:
           filter:

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../RHMAccDoc/appuser/src/main/java/net/rhm/appuser/config/ResourceServerConfig.java" description="@Configuration" line="2" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="bef715f5-1379-4746-9be5-98e78ff16dd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -40,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/global/default/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+            <state relative-caret-position="333">
+              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -175,7 +172,7 @@
       <workItem from="1550997986217" duration="254000" />
       <workItem from="1550998266092" duration="1594000" />
       <workItem from="1551031317819" duration="3153000" />
-      <workItem from="1551290528016" duration="1231000" />
+      <workItem from="1551290528016" duration="2055000" />
     </task>
     <task id="LOCAL-00001" summary="readme modif">
       <created>1550002769944</created>
@@ -254,11 +251,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551032493165</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Debug log within gateway">
+      <created>1551296518533</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1551296518533</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21081000" />
+    <option name="totallyTimeSpent" value="21905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="657" y="13" width="1262" height="1006" extended-state="0" />
@@ -306,7 +310,8 @@
     <MESSAGE value="updating logging level for hibernate - global conf." />
     <MESSAGE value="fixing duplicate" />
     <MESSAGE value="Testing Hystrix timeout for the gateway." />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing Hystrix timeout for the gateway." />
+    <MESSAGE value="Debug log within gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debug log within gateway" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -335,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/global/default/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        <state relative-caret-position="333">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
         </state>
       </provider>
     </entry>
