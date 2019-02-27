@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bef715f5-1379-4746-9be5-98e78ff16dd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appgateway/default/appgateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appgateway/default/appgateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global/default/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/global/default/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,20 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appgateway/default/appgateway.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="289">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/global/default/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+            <state relative-caret-position="299">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -65,8 +65,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/appuser/default/appuser.yml" />
-        <option value="$PROJECT_DIR$/global/default/application.yml" />
         <option value="$PROJECT_DIR$/appgateway/default/appgateway.yml" />
+        <option value="$PROJECT_DIR$/global/default/application.yml" />
       </list>
     </option>
   </component>
@@ -82,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -127,7 +128,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,7 +174,8 @@
       <workItem from="1550860133780" duration="598000" />
       <workItem from="1550997986217" duration="254000" />
       <workItem from="1550998266092" duration="1594000" />
-      <workItem from="1551031317819" duration="1082000" />
+      <workItem from="1551031317819" duration="3153000" />
+      <workItem from="1551290528016" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="readme modif">
       <created>1550002769944</created>
@@ -246,17 +247,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551032159046</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Testing Hystrix timeout for the gateway.">
+      <created>1551032493165</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1551032493165</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17779000" />
+    <option name="totallyTimeSpent" value="21081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="657" y="13" width="1262" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31447586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31946754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -318,17 +326,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global/default/application.yml">
+    <entry file="file://$PROJECT_DIR$/appgateway/default/appgateway.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        <state relative-caret-position="289">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appgateway/default/appgateway.yml">
+    <entry file="file://$PROJECT_DIR$/global/default/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="299">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
         </state>
       </provider>
     </entry>

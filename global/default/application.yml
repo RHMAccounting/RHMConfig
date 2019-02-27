@@ -43,6 +43,7 @@ logging:
     net:
       rhm:
         appuser: debug
+        appgateway: debug
     org:
       springframework:
         security: DEBUG
