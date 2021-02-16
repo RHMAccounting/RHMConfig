@@ -22,7 +22,7 @@ spring:
         registration:
           keycloak:
             client-id: rhm-gateway
-            client-secret: be20f0a6-40dc-4e9b-a469-771685f0e613
+            client-secret: eeaf7b15-345f-47a8-a43d-565666116113
             client-name: RHM
             provider: keycloak
             scope: openid, email, profile
