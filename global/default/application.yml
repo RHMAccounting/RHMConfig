@@ -31,11 +31,11 @@ spring:
 
         provider:
           keycloak:
-            authorization-uri: http://192.168.99.100:8080/auth/realms/RHM/protocol/openid-connect/auth
-            token-uri: http://192.168.99.100:8080/auth/realms/RHM/protocol/openid-connect/token
-            user-info-uri: http://192.168.99.100:8080/auth/realms/RHM/protocol/openid-connect/userinfo
+            authorization-uri: http://localhost:8090/auth/realms/RHM/protocol/openid-connect/auth
+            token-uri: http://localhost:8090/auth/realms/RHM/protocol/openid-connect/token
+            user-info-uri: http://localhost:8090/auth/realms/RHM/protocol/openid-connect/userinfo
             user-info-authentication-method: header
-            jwk-set-uri: http://192.168.99.100:8080/auth/realms/RHM/protocol/openid-connect/certs
+            jwk-set-uri: http://localhost:8090/auth/realms/RHM/protocol/openid-connect/certs
             user-name-attribute: preferred_username
 
 logging:
